@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta author="Gustavo Valentino">
+    <meta description="Web site de iagens">
+    <meta keywords="html, css, javascript, website, site, viagnes, projeto, responsivo, turismo, férias, diversão, melhores preços, passagens">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buenas Viagens</title>
+    <!-- CSS customizado -->
+     <link rel="stylesheet" href="css/style.css">
+     <!-- Font Awesome -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+   <!-- ===== Barra de navegação fixa, com menu =====  -->
+    <nav>
+        <div class="logo">Buenas Viagens!</div>
+
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#passeios">Passeios</a>
+                <a href="#destinos">Destinos</a>
+                <a href="#avaliacoes">Avaliações</a>
+             </div>
+
+        <!-- Menu Responsivo -->
+        <div class="drop-menu">
+            <div class="drop-button">
+                <div class="barra"></div>
+                <div class="barra"></div>
+                <div class="barra"></div>
+            </div>
+
+            <!-- Conteúdo do submenu -->
+            <div class="drop-content">
+                <a href="#">Home</a>
+                <a href="#passeios">Passeios</a>
+                <a href="#destinos">Destinos</a>
+                <a href="#avaliaces">Avaliações</a>
+             </div>
+         </div>
+    </nav>
+
+    <!-- ===== Banner e Calendário ===== -->
+     <header>
+        <div class="titulo">
+            Economize muito com as melhores ofertas de viagens
+
+        </div>
+
+        <div class="booking">
+            <form>
+                <div>
+                    <label for="destino">Para onde vamos?</label>
+                    <input type="text" id="destino">  
+                </div>
+                <div>
+                    <label for="partida">Quando?</label>
+                    <input type="date" id="partida">
+                    </div>
+
+                    <div>
+                        <label for="retorno">Retorno</label>
+                        <input type="date" id="retorno">
+                    </div>
+
+                    <button type="button">Buscar</button>
+            </form>
+        </div>
+     </header>
+     <!-- ===== Passeios ===== -->
+      <section class="passeios" id="passeios">
+        <div class="info-passeios">
+            <h1>Próximos Passeios & Destinos</h1>
+
+            <hr>
+
+            <h2>Compre sua viagem com assessoria personalizada</h2>
+
+            <p>
+                Uma seleção de pacotes para suas próximas férias, nossos agentes especializados estão prontos para ajudar a concretizar sua viagem. consulte nossos canais de atendimento!
+            </p>
+
+            <button>Acessar canais</button>
+        </div>
+        <!-- card passeios -->
+        <div class="card-passeios">
+            <div class="foto">
+                <img src="img/rio.jpeg" alt="Passeios foto 1">
+            </div>
+
+            <h1>Rio de Janeiro</h1>
+
+            <p>Pacotes a partir de</p>
+
+            <h2>R$ 947,00</h2>
+
+            <button>Comprar</button>
+
+            </div>
+
+            <!-- card passeios fim -->
+
+            <!-- card passeios -->
+            <div class="card-passeios">
+
+            <div class="foto">
+                <img src="img/maceio.jpeg" alt="Passeios foto 2">
+            </div>
+
+            <h1>Maceio</h1>
+
+            <p>Pacotes a partir de</p>
+
+            <h2>R$ 941,00</h2>
+
+            <button>Comprar</button>
+        </div>
+
+        <!-- card passeios fim -->
+
+        <!-- card passeios -->
+        <div class="card-passeios">
+
+            <div class="foto">
+                <img src="img/florianópolis.jpeg" alt="Passeios foto 3">
+            </div>
+
+            <h1>florianópolis</h1>
+
+            <p>Pacotes a partir de</p>
+
+            <h2>R$ 818,00</h2>
+
+            <button>Comprar</button>
+            </div>
+            <!-- card passeios fim -->
+             
+            <!-- card passeios -->
+            <div class="card-passeios">
+
+            <div class="foto">
+                <img src="img/foz-do-iguaçu.jpeg" alt="Passeios foto 4">
+            </div>
+
+            <h1>Foz do Iguaçu</h1>
+
+            <p>Pacotes a partir de</p>
+
+            <h2>R$ 915,00</h2>
+
+            <button>Comprar</button>
+         </div>
+        </div>
+        </section>
+         <!-- card passeios fim -->
+
+         
+      <!-- ===== Destinos ===== -->
+
+       <section class="destinos" id="destinos">
+        <h1>Para onde você quer viajar?</h1>
+
+        <div class="grupo-destinos">
+
+            <!-- Destino 1 -->
+
+            <div class="card-destino">
+                <img src="img/Cairo.jpg" alt="Cairo">
+                <div>
+                    <span>Cairo</span>, Egito
+
+                    <p>
+                        Porro ea odit eos tempore aliquam rem sunt, nam eum nihil natus accusantium iusto. Ea nobis fugiat, aliquid veritatis repudiandae molestias dolorum.
+                    </p>
+
+                    <div class="valor">
+                        <h3>R$ 3.900,00</h3>
+                        <span>R$ 4.400,00</span>
+                    </div>
+
+                    <div class="card-btn">
+                        <button>Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+            
+
+             <!-- Destino 2 -->
+             <div class="card-destino">
+                <img src="img/Porto.jpg" alt="Porto">
+                <div>
+                    <span>Porto</span>, Portugal
+
+                    <p>
+                        Porro ea odit eos tempore aliquam rem sunt, nam eum nihil natus accusantium iusto. Ea nobis fugiat, aliquid veritatis repudiandae molestias dolorum.
+                    </p>
+
+                    <div class="valor">
+                        <h3>R$ 3.700,00</h3>
+                        <span>R$ 4.300,00</span>
+                    </div>
+
+                    <div class="card-btn">
+                        <button>Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+              <!-- Destino 3 -->
+              <div class="card-destino">
+                <img src="img/Dubai.jpg" alt="Dubai">
+                <div>
+                    <span>Dubai</span>, Emirados Árabes Unidos
+
+                    <p>
+                        Porro ea odit eos tempore aliquam rem sunt, nam eum nihil natus accusantium iusto. Ea nobis fugiat, aliquid veritatis repudiandae molestias dolorum.
+                    </p>
+
+                    <div class="valor">
+                        <h3>R$ 3.500,00</h3>
+                        <span>R$ 4.200,00</span>
+                    </div>
+
+                    <div class="card-btn">
+                        <button>Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+               <!-- Destino 4 -->
+               <div class="card-destino">
+                <img src="img/London.jpg" alt="London">
+                <div>
+                    <span>Londres</span>, Inglaterra
+
+                    <p>
+                        Porro ea odit eos tempore aliquam rem sunt, nam eum nihil natus accusantium iusto. Ea nobis fugiat, aliquid veritatis repudiandae molestias dolorum.
+                    </p>
+
+                    <div class="valor">
+                        <h3>R$ 4.200,00</h3>
+                        <span>R$ 4.900,00</span>
+                    </div>
+
+                    <div class="card-btn">
+                        <button>Saiba mais</button>
+                    </div>
+                </div>
+            </div>
+                <!-- Destino 5 -->
+                <div class="card-destino">
+                    <img src="img/Lauterbrunnen.jpeg" alt="Lauterbrunnen">
+                    <div>
+                        <span>Lauterbrunnen</span>, Suiça
+    
+                        <p>
+                            Porro ea odit eos tempore aliquam rem sunt, nam eum nihil natus accusantium iusto. Ea nobis fugiat, aliquid veritatis repudiandae molestias dolorum.
+                        </p>
+    
+                        <div class="valor">
+                            <h3>R$ 3.900,00</h3>
+                            <span>R$ 4.300,00</span>
+                        </div>
+    
+                        <div class="card-btn">
+                            <button>Saiba mais</button>
+                        </div>
+                    </div>
+                </div>
+                 <!-- Destino 6 -->
+                 <div class="card-destino">
+                    <img src="img/Paris.jpg" alt="Paris">
+                    <div>
+                        <span>Paris</span>, França
+    
+                        <p>
+                            Porro ea odit eos tempore aliquam rem sunt, nam eum nihil natus accusantium iusto. Ea nobis fugiat, aliquid veritatis repudiandae molestias dolorum.
+                        </p>
+    
+                        <div class="valor">
+                            <h3>R$ 4.500,00</h3>
+                            <span>R$ 5.300,00</span>
+                        </div>
+    
+                        <div class="card-btn">
+                            <button>Saiba mais</button>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+       </section>
+
+       <!-- ===== Avaliações ===== -->
+        <section class="avaliações" id="avaliações">
+            <h1>Avaliações dos Clientes</h1>
+
+            <div class="carrossel">
+                <div class="cliente">
+                    <p>
+                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi ratione suscipit velit placeat architecto exercitationem tempora magnam facilis officia ducimus esse enim hic voluptate vel, quibusdam alias ex dolor adipisci!"
+                    </p>
+
+                    <img src="img/cliente01.png" alt="cliente 1">
+
+                    <p>
+                        <span>Patrícia</span>, Jornalista
+                    </p>
+                </div>
+                <div class="cliente">
+                    <p>
+                       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nam doloremque, nisi molestias possimus perferendis eum libero vel similique atque veritatis, iusto ipsa temporibus. Natus deleniti quasi sed omnis maxime!"
+                    </p>
+
+                    <img src="img/cliente02.png" alt="cliente 2">
+
+                    <p>
+                        <span>Isabel</span>, Médica
+                    </p>
+                </div>
+                <div class="cliente">
+                    <p>
+                      "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, nulla culpa! Natus suscipit, maiores dolorum velit quasi doloribus aperiam. Laborum a suscipit iure est, dicta tempora at facere nostrum soluta.!"
+                    </p>
+
+                    <img src="img/cliente03.png" alt="cliente 3">
+
+                    <p>
+                        <span>Alexandre</span>, Advogado
+                    </p>
+                </div>
+
+                <button class="anterior">&#10094;</button>
+                <button class="proximo">&#10095;</button>
+
+            </div>
+        </section>
+
+        <!-- ===== Rodapé ===== -->
+         <footer>
+            <div class="empresa">
+                <h1 class="logo">Buenas Viagens!</h1>
+
+                <p>
+                    <span>Buenas Viagens e Turismo S.A.</span>
+                    Avenida da Boa Vista, 1234 Porto, Portugal
+                </p>
+
+                <p>
+                    Buenas Viagens e Turismo S.A. &copy; Todos os direitos reservados 2024
+                </p>
+            </div>
+
+            <div class="parceiros">
+                <h3>Nossos Parceiros</h3>
+
+                <p>Lorem ipsum dolor</p>
+                <p>Sit amet consectetur</p>
+                <p>Elit. Nesciunt repellendus</p>
+                <p>Sit obcaecati consequatur</p>
+                <p>Quis, nihil temporibus</p>
+                <p>Repellat aperiam recusandae</p>
+                <p>Consectetur ea rerum</p>
+                <p>Laborum necessitatibus excepturi</p>
+            </div>
+
+            <div class="newslatter">
+                <h3>Assine a Nossa Newslatter</h3>
+
+                <div class="input-group">
+                    <input type="text" placeholder="Informe seu Email">
+                    <button>Enviar</button>
+                </div>
+
+                <hr>
+
+                <h3>Siga nossas redes sociais</h3>
+
+                <div class="rede-social">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+         </footer>
+
+        <div class="rodape"></div>
+</body>
+
+<script src="js/script.js"></script>
+</html>
