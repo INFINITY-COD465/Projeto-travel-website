@@ -552,7 +552,7 @@ section {
                 padding: 0;
                 padding-left: 1rem;
                 background-color: var(--cor-principal);
-                /* background-color: #c35858; */
+                background-color: #c35858;
             }
 
         .drop-content {
@@ -569,8 +569,11 @@ section {
 
         /* --- header --- */
         .titulo {
-            font-size: 1.8rem;
-            text-align: center  ;
+            font-size: 1.5rem;
+            text-align: center;
+            margin-top: 13%;
+            line-height: 1.7rem;
+
         }
 
         .booking {
@@ -579,10 +582,12 @@ section {
 
         .booking form {
             flex-direction: column;
+            width: 100%;
+            margin-top: 2%;
         }
 
         form input {
-            width: 100%;
+            width: 70%;
             margin-bottom: 0.6rem;
         }
 
@@ -593,12 +598,18 @@ section {
         /* --- passeios --- */
         .passeios {
             flex-direction: column;
-            padding-right: 1;
-            text-align: center;
+
         }
 
         .fotos-passeio {
             margin-top: 3rem;
+        }
+        h2 {
+        text-align: left;
+        }
+
+        .info-passeios p {
+            text-align:left
         }
 
         .foto {
