@@ -99,18 +99,22 @@ header div {
     width: 100%;
 }
 
+header h1 {
+    font-size: 40px;
+}
+
 .titulo {
     display: flex;
     justify-content: center;
     align-items: center;
     color:var(--cor-01);
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 0.1rem;
     word-spacing: 0.5rem;
     height: 100%;
     /*           eixo X eixo Y desfoque  cor */
-    text-shadow: 0.3rem 0 0.3rem var(--cor-05);
+    text-shadow: 0.3rem 0 0.3rem var(--cor-04);
 }
 
 .booking {
@@ -164,16 +168,12 @@ section {
 
 /* ===== section: Passeios ===== */
 .passeios {
-    display: flex;
+    display:flex;
 }
 
 .passeios h1 {
     font-family: var(--fonte-secundaria);
     color: var(--cor-principal);
-}
-
-.card-passeios span {
-    font-family: var(--fonte-secundaria);
 }
 
 .passeios hr {
@@ -185,8 +185,6 @@ section {
 
     .passeios p {
         margin: 1rem 0;
-        margin-left: 0;
-        margin-right: 5rem;
     }
 
     .info-passeios {
@@ -207,7 +205,7 @@ section {
         padding: 1;
         margin-left: 20px;
         margin-right: 20px;
-        margin-top: 100px;
+        margin-top: 250px;
         background-color: #e6ebf0;
     }
 
@@ -243,8 +241,8 @@ section {
         font-size: 13px;
         text-align: center;
         color: rgb(182, 181, 181);
-        margin-left: 0rem;
-        margin-right: 0; 
+        margin-left: 2rem;
+        margin-right: 2rem; 
     }
 
     .card-passeios h2 {
@@ -552,7 +550,7 @@ section {
                 padding: 0;
                 padding-left: 1rem;
                 background-color: var(--cor-principal);
-                background-color: #c35858;
+                /* background-color: #c35858; */
             }
 
         .drop-content {
@@ -575,7 +573,7 @@ section {
             line-height: 1.7rem;
 
         }
-
+        
         .booking {
             padding: 0.8rem;
         }
