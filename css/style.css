@@ -258,7 +258,7 @@ section {
 
 .overlay::after {
     border-radius: 0 25px 0 0;
-    background-color: #fff;
+    background-color: #f9f9f9;
 }
 
 .card-image {
@@ -281,6 +281,7 @@ section {
     font-weight: 700;
     color: #333;
     height: 2rem;
+    z-index: 1;
 }
 
 .fa-solid {
@@ -653,16 +654,24 @@ section {
         /* Extra Small (xs): Smartphone (portrait - retrato) */
 
         @media screen and (max-width: 768px) {
+            .titulo h1 {
+                font-size: 1.5rem;
+                text-align: center;
+                margin-top: 13%;
+                line-height: 1.7rem;
+            }
+
+            .slide-container {
+                margin-top: 14rem;
+                display: flex;
+                width: 80%;
+            }
 
             .pacote-titulo {
                 display: none;
             }
-
-
             .slide-content {
                 margin: 0 10px;
-                flex-direction: column;
-                grid-template-columns: auto auto auto;
             }
             .swiper-navBtn {
                 display: none;
