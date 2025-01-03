@@ -667,8 +667,8 @@ section {
 
             .slide-container {
                 margin-top: 18rem;
-                width: 80%;
-                transform: scale(0.8);
+                width: 100%;
+                transform: scale(0.9);
             }
 
             .descrição {
