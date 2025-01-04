@@ -111,7 +111,7 @@ header h1 {
     font-size: 2rem;
     font-weight: 600;
     letter-spacing: 0.1rem;
-    word-spacing: 0.5rem;
+    word-spacing: 0.1rem;
     height: 100%;
     /*           eixo X eixo Y desfoque  cor */
     text-shadow: 0.3rem 0 0.3rem var(--cor-04);
@@ -197,6 +197,7 @@ section {
     /* ===== card passeios ===== */
 
     .slide {
+
         min-height: 100vh;
         display: flex;
         align-items: center;
@@ -204,6 +205,7 @@ section {
         color: #747dff3c;
     }
     .slide-container {
+
         max-width: 1120px;
         width: 50%;
         padding: 40px 0;
@@ -211,6 +213,7 @@ section {
     }
 
 .slide-content {
+
     margin: 0 40px;
     overflow: hidden;
     border-radius: 25px;
@@ -218,7 +221,7 @@ section {
 
 .card {
     border-radius: 25px;
-    background-color: var(--cor-01);
+    background-color: #fff;
 }
 
 .image-content,
@@ -259,6 +262,7 @@ section {
 .overlay::after {
     border-radius: 0 25px 0 0;
     background-color: var(--cor-01);
+    padding-inline-end: 1rem;
 }
 
 .card-image {
@@ -334,7 +338,7 @@ section {
     color: #fff;
     padding: 8px 16px;
     background-color: var(--cor-destaque);
-    border-radius: 6px;
+    border-radius: 8px;
     margin: 14px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -653,31 +657,43 @@ section {
         /* Extra Small (xs): Smartphone (portrait - retrato) */
 
         @media screen and (max-width: 768px) {
-            .titulo h1 {
+
+            .passeios {
+                font-size: 14px;
+                line-height: 1.2;
+            }
+
+            .titulo {
                 font-size: 1.5rem;
                 text-align: center;
                 margin-top: 13%;
-                line-height: 1.7rem;
+                word-spacing: -0.1rem;
             }
 
-            .name {
-                display: flex;
-                z-index: 1;
+            .slide {
+                flex-direction: column;
             }
 
             .slide-container {
-                margin-top: 18rem;
+                margin-top: 0rem;
                 width: 100%;
                 transform: scale(0.9);
             }
 
             .descrição {
-                font-size: 13px;
-                line-height: 1.3;
+                font-size: 15px;
+                line-height: 1.2;
             }
 
             .pacote-titulo {
-                display: none;
+
+                font-size: 18px;
+                margin-top: 18rem;
+            }
+
+            .pacote-titulo i {
+                padding-left: 2%;
+                margin-top: 0.2rem;
             }
             .slide-content {
                 margin: 0 10px;
